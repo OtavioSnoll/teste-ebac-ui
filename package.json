@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/OtavioSnoll/teste-ebac-ui#readme",
   "dependencies": {
-    "cypress": "^11.0.1"
+    "cypress": "^11.0.1",
+    "faker-br": "^0.4.1"
   }
 }
