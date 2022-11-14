@@ -4,11 +4,11 @@ var faker = require('faker-br')
 describe('Funcionalidade Pre Cadastro', () => {
 
     beforeEach(() =>{
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+        cy.visit('minha-conta')
     })
 
     it('Deve completar o pre cadastro com sucesso ', () => {
-        let emailFaker = faker.internet.email(nomeFaker)
+        let emailFaker = faker.internet.email()
         let nomeFaker = faker.name.firstName() 
         let sobrenomeFaker = faker.name.lastName()
 
@@ -25,6 +25,12 @@ describe('Funcionalidade Pre Cadastro', () => {
 
 
         
+    });
+
+    it.only('Deve completar o pre cadastro com sucesso usando os comandos customizados', () => {
+        let emailFaker2 = faker.internet.email()
+        cy.preCadastro(emailFaker2,'senha!@forte', 'Otavio', 'Santos')
+
     });
     
 });
