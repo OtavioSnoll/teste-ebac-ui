@@ -1,0 +1,44 @@
+[
+    {
+        "nome": "Ana",
+        "sobrenome": "Lucia",
+        "empresa": "EBAC",
+        "endereco": "Av Paulista",
+        "numero": "2008",
+        "pais": "Brasil",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "01000100",
+        "telefone": "11999995555",
+        "email": "aluno@teste.com"
+    },
+    
+    {
+        "nome": "Joao",
+        "sobrenome": "Carlos",
+        "endereco": "Av Onix",
+        "empresa": "Google",
+        "numero": "1000",
+        "pais": "Brasil",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "01000100",
+        "telefone": "11999994444",
+        "email": "aluno2@teste.com"  
+    },
+
+    {
+        "nome": "Paula",
+        "sobrenome": "Santos",
+        "empresa": "Tesla",
+        "endereco": "Rua Seis",
+        "numero": "12",
+        "pais": "Brasil",
+        "cidade": "Osasco",
+        "estado": "São Paulo",
+        "cep": "01000100",
+        "telefone": "11998885555",
+        "email": "aluno4@teste.com"
+    }
+    
+]
